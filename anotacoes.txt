@@ -1,0 +1,11 @@
+## iniciar 
+docker compose up -d
+
+## criar as tabelas
+npm run db:migrate
+
+## list docker 
+docker ps
+
+## log de alguma aplicacao
+docker logs ID_APLICACAO
